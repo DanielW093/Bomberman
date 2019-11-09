@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Block">
+      <UniqueIdentifier>{cd7ca4b8-eaa6-4c3c-8a7e-04c08d8567b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Block">
+      <UniqueIdentifier>{53755e2f-6072-4f54-a38b-0562a05e8a4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Block\PowerUps">
+      <UniqueIdentifier>{4256550a-150e-493c-bae6-127ce1bee05f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Block\PowerUps">
+      <UniqueIdentifier>{d550a269-7102-44d4-b613-ea19a7eea2bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Player">
+      <UniqueIdentifier>{539c8dcb-9da0-44cf-9ffb-103a859a3702}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Player">
+      <UniqueIdentifier>{e6203e3b-9cd4-4c25-b880-87069cb03979}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Player\Bomb">
+      <UniqueIdentifier>{abd627fd-a30c-4563-9567-4347e6f5774f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Player\Bomb">
+      <UniqueIdentifier>{a9ca6bff-b397-465d-b691-588743a632c7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MyGame.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Block.h">
+      <Filter>Header Files\Block</Filter>
+    </ClInclude>
+    <ClInclude Include="PowerUp.h">
+      <Filter>Header Files\Block\PowerUps</Filter>
+    </ClInclude>
+    <ClInclude Include="Unbreakable.h">
+      <Filter>Header Files\Block</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Header Files\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Bomb.h">
+      <Filter>Header Files\Player\Bomb</Filter>
+    </ClInclude>
+    <ClInclude Include="Fire.h">
+      <Filter>Header Files\Player\Bomb</Filter>
+    </ClInclude>
+    <ClInclude Include="Breakable.h">
+      <Filter>Header Files\Block</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Exit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FlameUp.h">
+      <Filter>Header Files\Block\PowerUps</Filter>
+    </ClInclude>
+    <ClInclude Include="FlameDown.h">
+      <Filter>Header Files\Block\PowerUps</Filter>
+    </ClInclude>
+    <ClInclude Include="KickBoot.h">
+      <Filter>Header Files\Block\PowerUps</Filter>
+    </ClInclude>
+    <ClInclude Include="Spiked.h">
+      <Filter>Header Files\Block\PowerUps</Filter>
+    </ClInclude>
+    <ClInclude Include="BombUp.h">
+      <Filter>Header Files\Block\PowerUps</Filter>
+    </ClInclude>
+    <ClInclude Include="BombDown.h">
+      <Filter>Header Files\Block\PowerUps</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MyGame.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Block.cpp">
+      <Filter>Source Files\Block</Filter>
+    </ClCompile>
+    <ClCompile Include="PowerUp.cpp">
+      <Filter>Source Files\Block\PowerUps</Filter>
+    </ClCompile>
+    <ClCompile Include="Unbreakable.cpp">
+      <Filter>Source Files\Block</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Source Files\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Bomb.cpp">
+      <Filter>Source Files\Player\Bomb</Filter>
+    </ClCompile>
+    <ClCompile Include="Fire.cpp">
+      <Filter>Source Files\Player\Bomb</Filter>
+    </ClCompile>
+    <ClCompile Include="Breakable.cpp">
+      <Filter>Source Files\Block</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Exit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FlameUp.cpp">
+      <Filter>Source Files\Block\PowerUps</Filter>
+    </ClCompile>
+    <ClCompile Include="FlameDown.cpp">
+      <Filter>Source Files\Block\PowerUps</Filter>
+    </ClCompile>
+    <ClCompile Include="KickBoot.cpp">
+      <Filter>Source Files\Block\PowerUps</Filter>
+    </ClCompile>
+    <ClCompile Include="Spiked.cpp">
+      <Filter>Source Files\Block\PowerUps</Filter>
+    </ClCompile>
+    <ClCompile Include="BombUp.cpp">
+      <Filter>Source Files\Block\PowerUps</Filter>
+    </ClCompile>
+    <ClCompile Include="BombDown.cpp">
+      <Filter>Source Files\Block\PowerUps</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

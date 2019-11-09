@@ -1,0 +1,24 @@
+﻿Build started 16/07/2015 17:50:38.
+     1>Project "E:\Users\Dan\Documents\University Work\Year One\Games Technology\GTEC2D\Final Bomberman Submission\Bomberman 1\TheGame.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\TheGame.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+       Link:
+         All outputs are up-to-date.
+         TheGame.vcxproj -> E:\Users\Dan\Documents\University Work\Year One\Games Technology\GTEC2D\Final Bomberman Submission\Bomberman 1\Debug\TheGame.exe
+       PostBuildEvent:
+         Description: Copying DLLs
+         copy "E:\Users\Dan\Documents\University Work\Year One\Games Technology\GTEC2D\Final Bomberman Submission\Bomberman 1\..\GTEC2Dlib\SDL\dll\SDL.dll" "E:\Users\Dan\Documents\University Work\Year One\Games Technology\GTEC2D\Final Bomberman Submission\Bomberman 1\Debug\"
+         copy "E:\Users\Dan\Documents\University Work\Year One\Games Technology\GTEC2D\Final Bomberman Submission\Bomberman 1\..\GTEC2Dlib\SDL\dll\SDL_mixer.dll" "E:\Users\Dan\Documents\University Work\Year One\Games Technology\GTEC2D\Final Bomberman Submission\Bomberman 1\Debug\"
+         :VCEnd
+                 1 file(s) copied.
+                 1 file(s) copied.
+       FinalizeBuildStatus:
+         Deleting file "Debug\TheGame.unsuccessfulbuild".
+         Touching "Debug\TheGame.lastbuildstate".
+     1>Done Building Project "E:\Users\Dan\Documents\University Work\Year One\Games Technology\GTEC2D\Final Bomberman Submission\Bomberman 1\TheGame.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.11
